@@ -58,10 +58,4 @@ function App() {
   );
 }
 
-export default function Wrapper() {
-  return (
-    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
-      <App />
-    </GoogleOAuthProvider>
-  );
-}
+export default App;
